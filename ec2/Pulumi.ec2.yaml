@@ -1,7 +1,7 @@
 config:
   aws:region: us-east-1
   pulumi:template: vm-aws-yaml
-  vm-aws-yaml:instanceType: t2.micro
+  vm-aws-yaml:instanceType: t3.small
   vm-aws-yaml:vpcNetworkCidr: 10.0.0.0/16
 environment:
   - ramayan
